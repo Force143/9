@@ -197,7 +197,7 @@ hr {
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message .score-sharing {      display: inline-block;      vertical-align: middle;      margin-left: 10px; }    .game-container .game-message.game-won {
-      background: rgba(237, 194, 46, 0.5);
+      background: rgba(237, 194, 46, 0.0001);
       color: #f9f6f2; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
@@ -661,12 +661,13 @@ hr {
     color: #08ff00;
     background: #6e6156; }
   .tile.tile-32 .tile-inner {
-    color: #ffeede;
+    color: #291b0d;
     background: #b45a0a; 
-    font-size: 45px; }
+    font-size: 40px;
+    line-height: 1.2; }
   .tile.tile-33 .tile-inner {
     color: #38fcc7;
-    background: #90c7c5; 
+    background: #8bc7b9; 
     font-size: 50px; }
   .tile.tile-127 .tile-inner {
     color: #f9f6f2;
